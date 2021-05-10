@@ -7,4 +7,24 @@ function add() {
 	num = x;
 
 	document.getElementById("num").innerHTML = "Score: " + num;
+
+	if (x == 30) {
+		alert("Good!");
+	}
+
+	else if (x == 60) {
+		alert("Nice!");
+	}
+
+	else if (x == 90) {
+		alert("Awesome!");
+	}
+
+	else if (x == 120) {
+		alert("Epic!");
+	}
+
+	else if (x == 150) {
+		alert("Godlike!");
+	}
 }
