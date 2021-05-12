@@ -1,0 +1,16 @@
+Steps to create a server from scratch 
+
+1. Choose a hosting service website.
+2. Register an account on the website.
+3. Purchase a virtual private server.
+4. Use the credentials received by email to access 
+the VPS from a linux terminal with the ssh command 
+(example: ssh ubuntu@155.28.637.373)
+5. Change the password to something personal/easier using "passwd" command.
+6. For additional security you can create SSH keys in the local server 
+using the following command ("ssh-keygen -b 4096").
+7. Once the keys are created, copy the public key into the VPS' .ssh folder.
+8. Update packages and install nginx using "apt-get install nginx".
+9. Verify service status with "systemctl" command.
+10. Test server by typing in the ip address location in a browser search engine.
+(Remember that files should go in the /var/www/html/ folder)
